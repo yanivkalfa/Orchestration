@@ -1,0 +1,23 @@
+# The lane's outputs (requests, results, logs) are local, not history.
+lane/done/*
+!lane/done/.gitkeep
+lane/queue/*
+!lane/queue/.gitkeep
+lane/lane.log
+lane/.lock/
+
+# Hook state
+.claude/.lint-seen
+.claude/settings.local.json
+
+# Build outputs — uncomment / replace for your platform (example — replace)
+# build/
+# .gradle/
+# out/
+# *.apk
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
